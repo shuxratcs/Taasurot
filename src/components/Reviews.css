@@ -1,0 +1,66 @@
+.reviews-section {
+  background-color: var(--surface-color);
+  padding: var(--spacing-xl) 0;
+  overflow: hidden; /* Prevent horizontal scroll on document */
+}
+
+.reviews-carousel {
+  display: flex;
+  gap: var(--spacing-md);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: var(--spacing-md); /* space for scrollbar */
+  -webkit-overflow-scrolling: touch;
+  margin-right: calc(var(--spacing-sm) * -1); /* Full bleed right */
+  padding-right: var(--spacing-md);
+}
+
+.reviews-carousel::-webkit-scrollbar {
+  height: 8px;
+}
+.reviews-carousel::-webkit-scrollbar-track {
+  background: var(--bg-color);
+  border-radius: 4px;
+}
+.reviews-carousel::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 4px;
+}
+.reviews-carousel::-webkit-scrollbar-thumb:hover {
+  background: var(--text-secondary);
+}
+
+.review-card {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  background: var(--bg-color);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Reels (vertical format) */
+.review-card.reels {
+  width: 250px;
+  height: 440px;
+}
+
+/* Telegram (square / slightly wide format) */
+.review-card.telegram {
+  width: 320px;
+  height: 440px;
+}
+
+.review-placeholder {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: #EEEEEE;
+  flex-direction: column;
+}
+
+.review-label {
+  font-weight: 500;
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+}
