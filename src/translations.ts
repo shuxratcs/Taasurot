@@ -112,7 +112,7 @@ export const translations = {
       title_part1: "Shunchaki katalogdagi turni emas,",
       title_part2: "unutilmas taassurotga boy sayohat tanlab beramiz",
       subtitle_part1: "Tasodifiy tanlovlar yoʻq.",
-      subtitle_part2: "Sayohat rejasini sizning uslubingiz, budjetingiz va maqsadlaringizga moslab tuzamiz.",
+      subtitle_part2: "Sayohat rejasini sizning budjet va maqsadlaringizga moslab tuzamiz.",
       btn_know: "Qaysi turni xohlashimni bilaman",
       btn_help: "Unutilmas hordiq tanlashga yordam bering",
       badges: {
@@ -129,46 +129,46 @@ export const translations = {
         dest: "Qayerga borishni xohlaysiz?",
         dest_ph: "Mamlakat yoki shahar",
         date: "Sayohatni qachonga rejalashtiryapsiz?",
-        date_ph: "Oy yoki sanalar",
+        date_ph: "Sayohat vaqti (masalan, Avgust)",
         people: "Necha kishi?",
         people_ph: "2 kishi",
         budget: "Taxminiy budjet?",
         budget_ph: "$0",
-        btn: "Tur tanlovini olish"
+        btn: "Taklif olish"
       }
     },
     destinations: {
       title: "Qanday hordiq qidiryapsiz?",
-      subtitle: "BONUS: Sayohat formatini tanlang va bepul Tur-xaritasiga ega boʻling!",
+      subtitle: "BONUS: Sayohat formatini tanlang va Tur-xaritasiga ega boʻling!🎁",
       search: {
-        title: "Qayerga borishni bilasizmi? Kerakli yoʻnalish boʻyicha gaydni toping.",
+        title: "Qayerga borishni aniqlab boʻldingizmi? Oʻzingizga mos yoʻnalishni toping.",
         ph: "Mamlakat yoki shaharni kiriting",
-        btn: "Mening gaydimni topish"
+        btn: "Yoʻnalishni topish"
       },
       items: {
-        i1: { t: "Dengiz va okean boʻyida hordiq", d: "Ishdan butunlay uzilib, tiklanishni istaganlar uchun. Oq qum, iliq suv va mukammal servisga ega mehmonxonalar.", b: "Dengizga borishni xohlayman" },
-        i2: { t: "Togʻlar, tabiat va musaffo havo", d: "Manzaralar, sukunat va haqiqiy hordiq maskanlari. Ekskursiyalar, panoramali koʻrinishlar va shahar shovqinidan uzoqda dam olish.", b: "Togʻ va tabiatni xohlayman" },
-        i3: { t: "Zamonaviy megapolislar", d: "Dubay, Singapur, Malayziya va kelajakning boshqa shaharlari. Texnologiyalar, arxitektura, shoping va joʻshqin shahar hayoti.", b: "Shaharlarni ko’rsating" },
-        i4: { t: "Tarix va qadimiy meros", d: "Piramidalar, qadimiy shaharlar va madaniy marshrutlar. Dunyoqarashni kengaytiruvchi sayohat.", b: "Qadimiy joylarni koʻrishni xohlayman" },
-        i5: { t: "Romantik sayohat", d: "Asal oyi yoki ikki kishilik hordiq uchun ideal. Ikki kishilik mehmonxonalar, goʻzal quyosh botishi va esda qolarli muhit.", b: "Juftimni hayron qoldiraman" },
-        i6: { t: "Oilaviy hordiq", d: "Kattalar va bolalar uchun qulay mehmonxonalar. Animatsiya, xavfsiz plajlar va oilaviy oʻyin-kulgilar.", b: "Oilaviy boramiz" },
-        i7: { t: "Vizasiz budjetli hordiq", d: "Tez va murakkab tayyorgarliksiz uchish mumkin boʻlgan eng yaxshi yoʻnalishlar. Kutilmagan sayohatlar uchun ayni muddao.", b: "Arzon tur xohlayman" },
-        i8: { t: "Ekzotik yoʻnalishlar", d: "Butun umr xotirada qoladigan joylar. Orollar, jungli va noyob tabiat.", b: "Ekzotikani koʻrsating" }
+        i1: { t: "Dengiz va okean boʻyida hordiq", d: "Ishdan uzilib, tiklanishni istaganlar uchun. Oq qum, iliq suv va mukammal servisga ega mehmonxonalar.", b: "Dengizga" },
+        i2: { t: "Togʻlar, tabiat va musaffo havo", d: "Manzaralar, sukunat va haqiqiy hordiq maskanlari. Ekskursiyalar, panoramali koʻrinishlar va shahar shovqinidan uzoqda dam olish.", b: "Togʻlarga" },
+        i3: { t: "Zamonaviy megapolislar", d: "Dubay, Singapur, Malayziya va kelajakning boshqa shaharlari. Texnologiyalar, arxitektura, shoping va joʻshqin shahar hayoti.", b: "Shaharlarga" },
+        i4: { t: "Tarix va qadimiy meros", d: "Piramidalar, qadimiy shaharlar va madaniy marshrutlar. Dunyoqarashni kengaytiruvchi sayohat.", b: "Tarixga" },
+        i5: { t: "Romantik sayohat", d: "Asal oyi yoki ikki kishilik hordiq uchun ideal. Ikki kishilik mehmonxonalar, goʻzal quyosh botishi va esda qolarli muhit.", b: "Romantika" },
+        i6: { t: "Oilaviy hordiq", d: "Kattalar va bolalar uchun qulay mehmonxonalar. Animatsiya, xavfsiz plajlar va oilaviy oʻyin-kulgilar.", b: "Oila bilan" },
+        i7: { t: "Vizasiz budjetli hordiq", d: "Ortiqcha tayyorgarliksiz tez yoʻnalishlar. Kutilmagan sayohatlar uchun ayni muddao.", b: "Vizasiz" },
+        i8: { t: "Ekzotik yoʻnalishlar", d: "Butun umr xotirada qoladigan joylar. Orollar, jungli va noyob tabiat.", b: "Ekzotikaga" }
       }
     },
     guides: {
-      title: "Hordigʻingiz tur sotib olishdan oldin boshlanadi",
+      title: "Hordiq — tur sotib olishdan avval boshlanadi.",
       subtitle: "Gidlar va qidiruvlarsiz. Eng yaxshi mehmonxona, restoranlar, ekskursiyalar va marshrutlar bir sahifada.",
       btn_more: "Ko'proq ko'rish",
       items: {
-        i1: { t: "Dubay — mukammal haftani qanday oʻtkazish kerak", d: "Rove La Mer mehmonxonasi → Al Quoz art-kvartalida Boston Lane nonushtasi → Al Seef yashirin koʻchalari → Eleven Green’da kechki ovqat. Fidjka: Navbatlarsiz yoʻriqnoma.", b: "Haftalik rejani olish" },
-        i2: { t: "Sharm-al-Shayx — Qizil dengiz boʻyida hordiq", d: "Sunrise Arabian Beach mehmonxonasi → Ras-Umm-el-Sid buxtasi → Fares Seafood’da tushlik → Farsha Mountain Lounge’da oqshom. Fidjka: Marjon riflari.", b: "Marshrutni ko'rish" },
+        i1: { t: "Dubay — mukammal haftani qanday oʻtkazish kerak", d: "Rove La Mer mehmonxonasi → Al Quoz art-kvartalida Boston Lane nonushtasi → Al Seef yashirin koʻchalari → Eleven Green’da kechki ovqat. Fidjka: Navbatlarsiz yoʻriqnoma.", b: "Gaydni ochish" },
+        i2: { t: "Sharm-al-Shayx — Qizil dengiz boʻyida hordiq", d: "Sunrise Arabian Beach mehmonxonasi → Ras-Umm-el-Sid buxtasi → Fares Seafood’da tushlik → Farsha Mountain Lounge’da oqshom. Fidjka: Marjon riflari.", b: "Gaydni ochish" },
         i3: { t: "Pxuket — eng yaxshi plyajlar va marshrutlar", d: "The Slate mehmonxonasi → Banana Beach yashirin plyaji → Eski Pxuket shahri → Sunday Walking Street bozoridagi taomlar. Fidjka: 'instagrambop' manzillar xaritasi.", b: "Gaydni ochish" },
         i4: { t: "Istanbul — kolorit va gastronomiya", d: "CVK Park Bosphorus mehmonxonasi → Hafiz Mustafa nonushtasi → Galata minorasi → Nusr-Et’da kechki ovqat. Fidjka: Qanday savdolashish kerak.", b: "Gaydni ochish" }
       }
     },
     reviews: {
-      title: "Sayohatdan soʻng mijozlar nima deydi?",
+      title: "Mijozlarimizning samimiy taassurotlari",
       sub1: "Biz har bir safardan soʻng fikrlarni toʻplaymiz.",
       sub2: "Keyingi hordigʻingiz yanada yaxshiroq boʻlishi uchun",
       sub3: "fikrlarni boricha qabul qilamiz.",
@@ -180,30 +180,30 @@ export const translations = {
       subtitle: "Biz shunchaki turlarni sotmaymiz. Bizning vazifamiz — hordigʻingiz siz kutgandek boʻlishini taʼminlashdir.",
       btn: "Sayohatni tanlash",
       items: {
-        i1: { t: "Sizning soʻrovingizga mos sayohat tanlash", d: "Biz oʻnlab tasodifiy variantlarni taklif qilmaymiz. Avval sizning hohishingiz, budjetingiz va vaqtingizni tushunib, soʻngra mos keladigan variantlarni taqdim etamiz." },
-        i2: { t: "Mehmonxonalar bilan shaxsiy aloqalar", d: "Biz qabul qiluvchi kompaniyalar va mehmonxonalar bilan toʻgʻridan-toʻgʻri ishlaymiz. Maxsus soʻrovlarni tezroq hal qila olamiz." },
-        i3: { t: "Mehmonxonalar haqida halol maʼlumot", d: "Xona maydoni, joylashuvi va servis jihatlari haqida oldindan real maʼlumot beramiz. Kutilmagan yoqimsiz sovgʻalarsiz." },
-        i4: { t: "Sayohat davomida qoʻllab-quvvatlash", d: "Safar davomida savollar tugʻilsa, har doim bizga yozishingiz mumkin. Biz vaziyatni hal qilishga yordam beramiz." },
-        i5: { t: "Turistlarning real sharhlari", d: "Sayyohlarimizning video va xabarlarini koʻrishingiz mumkin. Faqat samimiy taassurotlar tasdiqlangan fotosuratlar bilan." }
+        i1: { t: "Soʻrovingizga mos sayohat tanlimiz", d: "Oʻnlab tasodifiy variantlarni taklif qilmasdan, xohish va talablaringiz asosida tur taklif etamiz." },
+        i2: { t: "Toʻgʻridan-toʻgʻri hamkorlik", d: "Yetakchi mehmonxona va xalqaro hamkorlar bilan aloqalarimiz bor. Bu sizga yuqori darajadagi servisni kafolatlaydi! Maxsus soʻrovlaringiz boʻlsa toʻgʻri menedjer orqali xal qilib berolimiz." },
+        i3: { t: "Mehmonxonalar haqida aniq maʼlumot", d: "Xona maydoni, joylashuvi, servis kamchilik va yutuqlari – oldindan rost maʼlumot beramiz. Anglashmovchilik kelib chiqmasligi uchun, tajribamizdan kelib chiqib tavsiyalar beramiz." },
+        i4: { t: "Turistlarimizni rozi qilamiz", d: "Pastroqda turistlarimizning sharhlarini koʻrishingiz mumkin. Biz kamchiliklar aytilmasa sharh qabul qilmimiz. Yashirmaymiz, aksincha ustimizda ishlaymiz." },
+        i5: { t: "Umrbod aloqadamiz", d: "Safar davomida, safardan keyin savollar tugʻilsa albatta yozing, qoʻldan kelgancha tez va toʻgʻri xal qilamiz." }
       }
     },
     lead: {
-      title: "Shaklni toʻldiring — soʻrovingizga mos eng yaxshi turni tanlaymiz",
-      subtitle: "Taasurot menejeri siz bilan bogʻlanadi va bir nechta mos variantlarni taklif qiladi. Bonus: Tanlangan yoʻnalish boʻyicha tavsiyalar gaydini yuboramiz.",
-      m1: "Soʻrovingizga mos turni tanlash",
-      m2: "Mehmonxonalar haqida halol maʼlumot",
-      m3: "Sayohat davomida qoʻllab-quvvatlash",
+      title: "Ma'lumot qoldiring — biz sizga eng yaxshi taklifni yuboramiz.",
+      subtitle: "Menejerimiz siz bilan 24 soat ichida bogʻlanib, mos variantlarni taklif etadi.",
+      m1: "Soʻrovingizga mos turni tanlimiz",
+      m2: "Mehmonxonalar haqida sizga aniq maʼlumot beramiz",
+      m3: "Sovgʻa sifatida sayohatingiz \"Samarali kun\" gaydni tashlab beramiz. (Ichida Lokatsiya, promokodlar va turistlarimiz fikrlari)",
       form: {
         name: "Ism",
         name_ph: "Ismingizni kiriting",
         phone: "Telefon",
         date: "Qachon borishni rejalashtiryapsiz",
-        date_ph: "Oy yoki sanalar",
+        date_ph: "Sayohat vaqti (masalan, Avgust)",
         people: "Necha kishi",
         people_ph: "2 nafar",
         budget: "Taxminiy budjet",
         budget_ph: "$0",
-        btn: "Turni tanlash"
+        btn: "Taklif olish"
       },
       footer: {
         rights: "Barcha huquqlar himoyalangan",
